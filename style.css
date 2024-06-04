@@ -100,7 +100,7 @@ a {
   padding: 16px 24px;
   font-size: 16px;
   border: none;
-  border-radius: 12px;
+  border-radius: 24px;
   display: inline-block;
   background: #000;
   color: white;
@@ -119,4 +119,125 @@ a {
 
 .hero-socials li {
   padding: 0 12px;
+}
+
+.blog .blog-heading {
+  margin: 40px 0 20px 0;
+}
+
+.blog-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 24px;
+}
+
+.cards {
+  width: auto;
+  /* border: 1px solid gray; */
+}
+
+.cards img {
+  border-radius: 16px;
+  width: 100%;
+}
+
+.cards h2 {
+  font-size: 20px;
+  margin: 8px 12px 12px 12px;
+}
+
+.cards p:nth-child(3) {
+  font-size: 14px;
+  margin: 8px 12px 12px 12px;
+  color: darkgrey;
+  line-height: 160%;
+}
+
+.cards p:nth-child(4) {
+  font-size: 14px;
+  background: #000;
+  color: #fff;
+  border-radius: 24px;
+  padding: 8px 24px;
+  margin: 0 12px 4px 12px;
+  display: inline-block;
+}
+
+.cards p:nth-child(5) {
+  font-size: 14px;
+  margin: 8px 12px 12px 12px;
+}
+
+.load-more-container {
+  text-align: center;
+  margin: 40px 0;
+}
+.load-more-button {
+  cursor: pointer;
+  padding: 16px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 24px;
+  display: inline-block;
+  background: #000;
+  color: white;
+  font-weight: 500;
+  font-family: "Montserrat";
+  transition: 0.3 ease;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 80vh;
+  background: #e8e8e8;
+}
+
+.subscribe h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.subscribe p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.subscribe form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe form input {
+  /* flex-grow: 1; */
+  width: 40%;
+  border: 1px solid gray;
+  padding: 12px 40px;
+  border-radius: 24px;
+  margin-right: 8px;
+}
+
+.subscribe form input[type="text"] {
+  font-family: "Montserrat";
+}
+
+.subscribe form button {
+  cursor: pointer;
+  padding: 12px 24px;
+  font-size: 12px;
+  border: none;
+  border-radius: 24px;
+  display: inline-block;
+  background: #000;
+  color: white;
+  font-weight: 500;
+  font-family: "Montserrat";
+  transition: 0.3 ease;
 }
